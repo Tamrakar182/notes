@@ -12,5 +12,5 @@ The following are some of the reasons why data structures are important:
 4. Problem Solving
 
 ### Types of Data Structures:
-1. [[Linear Data Structure]]
-2. [[Non-Linear Data Structure]]
+1. [[Third Semester/Data Structures and Algorithms/Linear Data Structure|Linear Data Structure]]
+2. [[Third Semester/Data Structures and Algorithms/Non-Linear Data Structure|Non-Linear Data Structure]]

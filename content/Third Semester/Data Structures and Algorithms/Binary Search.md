@@ -63,4 +63,4 @@ Space Complexity: `O(1)` *it may require additional memory to store collection i
 ## Use Case
 It is useful when the collection is large and sorted.
 
-Related: [[Linear Search]]
+Related: [[Third Semester/Data Structures and Algorithms/Linear Search|Linear Search]]

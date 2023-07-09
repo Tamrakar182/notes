@@ -51,4 +51,4 @@ Space Complexity: ``O(1)`` *it can be performed in place without any additional 
 ## Use Case
 It is useful when the collection is small and unsorted
 
-Related: [[Binary Search]]
+Related: [[Third Semester/Data Structures and Algorithms/Binary Search|Binary Search]]

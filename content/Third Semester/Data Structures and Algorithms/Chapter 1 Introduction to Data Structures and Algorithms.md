@@ -4,7 +4,7 @@ title: "Chapter 1 Introduction to Data Structures and Algorithms"
 # Introduction to Data Structures and Algorithms
 
 In this chapter, we will learn about:
-- [[Data types, Data Structures and Abstract Data Type]]
-- [[Dynamic memory allocation in C]]
+- [[Third Semester/Data Structures and Algorithms/Data types, Data Structures and Abstract Data Type|Data types, Data Structures and Abstract Data Type]]
+- [[Third Semester/Data Structures and Algorithms/Dynamic memory allocation in C|Dynamic memory allocation in C]]
 - [[Introduction to Algorithms]]
-- [[Asymptotic notations and common functions]]
+- [[Third Semester/Data Structures and Algorithms/Asymptotic notations and common functions|Asymptotic notations and common functions]]

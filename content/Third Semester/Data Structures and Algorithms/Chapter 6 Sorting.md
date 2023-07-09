@@ -6,5 +6,4 @@ title: "Chapter 6 Sorting"
 In this chapter, we will learn about:
 - [[Introduction and Types of sorting, Internal and External sort]]
 - [[Comparison Sorting Algorithms, Bubble, Selection and Insertion Sort, Shell Sort]]
-- [[Divide and Conquer Sorting Alogrithms, Quick, Merge and Heap sort]]
-- [[Efficiency of Sorting Algorithms]]
+- [[Third Semester/Data Structures and Algorithms/Divide and Conquer Sorting Algorithms, Quick, Merge and Heap sort|Divide and Conquer Sorting Algorithms, Quick, Merge and Heap sort]]

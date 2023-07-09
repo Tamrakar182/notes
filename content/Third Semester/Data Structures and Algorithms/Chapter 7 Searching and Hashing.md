@@ -4,5 +4,5 @@ title: "Chapter 7 Searching and Hashing"
 # Searching and Hashing
 
 In this chapter, we will learn about:
-- [[Introduction to Searching and Search Algorithms]]
-- [[Hashing, Hash functions and Hash tables, Collision Resolution Techniques]]
+- [[Third Semester/Data Structures and Algorithms/Introduction to Searching and Search Algorithms|Introduction to Searching and Search Algorithms]]
+- [[Third Semester/Data Structures and Algorithms/Hashing, Hash functions and Hash tables, Collision Resolution Techniques|Hashing, Hash functions and Hash tables, Collision Resolution Techniques]]

@@ -3,6 +3,6 @@ title: "Concept and Definitions, Basic Operations in Binary Tree, Tree Height, L
 ---
 # Tree, Graph and Binary Tree
 
-- [[Tree]]
+- [[Third Semester/Data Structures and Algorithms/Tree|Tree]]
 - [[Graph]]
 - [[Binary Tree]]
