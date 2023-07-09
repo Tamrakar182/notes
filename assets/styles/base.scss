@@ -22,12 +22,27 @@ html {
   }
 }
 
-.singlePage {
+.singlePageOrig {
   padding: 4em 30vw;
   margin: 0 auto;
   max-width: 1000px;
   @media all and (max-width: 1200px) {
     padding: 25px 5vw;
+  }
+}
+
+.singlePage {
+  display: flex;
+  justify-content: center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 5vh;
+  // padding: 4em 30vw;
+  @media all and (max-width: 1200px) {
+    // padding: 25px 5vw;
+    flex-direction:column;
+    margin-left:5vw;
+    margin-right:5vw
   }
 }
 
@@ -310,6 +325,33 @@ hr {
   background-color: var(--outlinegray);
 }
 
+.backlinks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-left: 1rem;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  padding-right: 1vw;
+  padding-top: 5vh;
+  min-width: 10rem;
+  & > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    & > li {
+      margin: 0.5em 0;
+      padding: 0.25em 1em;
+      border: var(--outlinegray) 1px solid;
+      border-radius: 0;
+      border: 2px solid var(--outline);
+      box-shadow: 2px 2px 0 var(--outline);
+    }
+  }
+}
+
 .page-end {
   display: flex;
   flex-direction: row;
@@ -323,30 +365,12 @@ hr {
     flex: 1 0 0;
   }
 
-  & > .backlinks-container {
-    & > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-
-      & > li {
-        margin: 0.5em 0;
-        padding: 0.25em 1em;
-        border: var(--outlinegray) 1px solid;
-        border-radius: 5px;
-        border-radius: 0;
-        border: 2px solid var(--outline);
-        box-shadow: 2px 2px 0 var(--outline);
-
-      }
-    }
-  }
-
+  
   & #graph-container {
     border: var(--outlinegray) 1px solid;
     border-radius: 5px;
     box-sizing: border-box;
-    min-height: 250px;
+    min-height: 400px;
     margin: 0.5em 0;
     border-radius: 0;
     border: 2px solid var(--outline);
