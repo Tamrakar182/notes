@@ -333,7 +333,11 @@ hr {
         margin: 0.5em 0;
         padding: 0.25em 1em;
         border: var(--outlinegray) 1px solid;
-        border-radius: 5px
+        border-radius: 5px;
+        border-radius: 0;
+        border: 2px solid var(--outline);
+        box-shadow: 2px 2px 0 var(--outline);
+
       }
     }
   }
@@ -344,6 +348,10 @@ hr {
     box-sizing: border-box;
     min-height: 250px;
     margin: 0.5em 0;
+    border-radius: 0;
+    border: 2px solid var(--outline);
+    box-shadow: 2px 2px 0 var(--outline);
+
 
     & > svg {
       margin-bottom: -5px;
