@@ -1,17 +1,17 @@
 // Add your own CSS here!
 
 :root {
-  --light: #FFFDC0;
-  --dark: #003960;
-  --secondary: #00CC44;
-  --tertiary: #00902A;
-  --visited: #29718F;
-  --primary: #FF264D;
+  --light: #faf8f8;
+  --dark: #141021;
+  --secondary: #284b63;
+  --tertiary: #84a59d;
+  --visited: #afbfc9;
+  --primary: #f28482;
   --gray: #4e4e4e;
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
   --million-progress-bar-color: var(--secondary);
-  --highlighted: #21FF54;
+  --highlighted: #f5dfaf88;
 }
 
 [saved-theme="dark"] {
@@ -27,5 +27,39 @@
   --highlighted: #574010;
 }
 
+:root {
+  --light: #FFFDC0;
+  --dark: #003960;
+  --secondary: #00CC44;
+  --tertiary: #00902A;
+  --visited: #29718F;
+  --primary: #FF264D;
+  --highlighted: #f5dfaf88;
+}
 
+[saved-theme="dark"] {
+  --light: #FFFDC0;
+  --dark: #003960;
+  --secondary: #00CC44;
+  --tertiary: #00902A;
+  --visited: #29718F;
+  --primary: #FF264D;
+  --highlighted: #f5dfaf88;
+  --outer-bar: #0b0f13; /*#0e0f15*/
+  --outline: var(--outer-bar);
+}
 
+.page-end { 
+  & > .backlinks-container {
+     & > li {
+      border-radius: 0;
+      border: 2px solid var(--outline);
+      box-shadow: 2px 2px 0 var(--outline);
+     }
+  }
+
+  & > #graph-container {
+    border: var(--outlinegray) 1px solid;
+    border-radius: 5px;
+  }
+}
