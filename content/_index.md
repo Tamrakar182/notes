@@ -1,6 +1,6 @@
 ---
 title: Notes
-enableToc: true
+enableToc: false
 ---
 
 Hello, I made this website to host my notes made for BSc. CSIT Third Semester using Obsidian.
