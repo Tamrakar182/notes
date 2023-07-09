@@ -1,9 +1,11 @@
 // Replace this with your own font imports!
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Comfortaa:wght@400;600;700&display=swap');
+
 :root {
-  --font-body: "Source Sans Pro", sans-serif;
-  --font-header: "Inter", sans-serif;
-  --font-mono: "Fira Code", monospace;
+  --font-body: "Inter", sans-serif;
+  --font-header: "Atkinson Hyperlegible", "Inter", sans-serif;
+  --font-mono: "Comfortaa","Fira Code", monospace;
 }
 
 // typography
@@ -330,15 +332,24 @@ hr {
       & > li {
         margin: 0.5em 0;
         padding: 0.25em 1em;
-        border: var(--outlinegray) 1px solid;
-        border-radius: 5px
+        // border: var(--outlinegray) 1px solid;
+        // border-radius: 5px
+
+        border-radius: 0;
+        border: 2px solid var(--outline);
+        box-shadow: 2px 2px 0 var(--outline);
       }
     }
   }
 
   & #graph-container {
-    border: var(--outlinegray) 1px solid;
-    border-radius: 5px;
+    // border: var(--outlinegray) 1px solid;
+    // border-radius: 5px;
+
+    
+    border: 2px solid var(--outline);
+    box-shadow: 2px 2px 0 var(--outline);
+
     box-sizing: border-box;
     min-height: 250px;
     margin: 0.5em 0;
