@@ -1,0 +1,31 @@
+name: Manjul Tamrakar
+enableToc: true
+openToc: false
+enableLinkPreview: true
+enableLatex: true
+enableCodeBlockTitle: true
+enableCodeBlockCopy: true
+enableCallouts: true
+enableSPA: true
+enableFooter: true
+enableContextualBacklinks: true
+enableRecentNotes: false
+enableGitHubEdit: true
+enableMermaid: true
+GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+search:
+  enableSemanticSearch: false
+  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+description:
+  BSc. CSIT Notes made by a student from Patan Multiple Campus. Currently it has notes for third semester.
+  Made by using Obsidian and deployed using Hugo.
+page_title:
+  "Notes"
+links:
+  - link_name: Twitter
+    link: https://twitter.com/tamrakar999
+  - link_name: GitHub
+    link: https://github.com/Tamrakar182
+  - link_name: LinkedIn
+    link: https://www.linkedin.com/in/manjul-tamrakar/
