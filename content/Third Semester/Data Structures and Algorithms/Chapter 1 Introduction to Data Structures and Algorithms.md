@@ -1,7 +1,11 @@
 ---
 title: "Chapter 1 Introduction to Data Structures and Algorithms"
+tags:
+- chapters
 ---
 # Introduction to Data Structures and Algorithms
+
+Tags: #chapters 
 
 In this chapter, we will learn about:
 - [[Third Semester/Data Structures and Algorithms/Data types, Data Structures and Abstract Data Type|Data types, Data Structures and Abstract Data Type]]

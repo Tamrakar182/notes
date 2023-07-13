@@ -1,10 +1,17 @@
 ---
 title: "Binary Search"
+tags:
+- algorithms
 ---
+
 # Binary Search
+
+Tags: #algorithms 
+
 Binary Search Algorithm is another approach to the Searching where we follow a [[divide and conquer]] approach by dividing the searching space in half and comparing the search term with the middle element until the target element is found. Binary Search Algorithm is more efficient than Linear Search Algorithm when given a sorted data collection since the no. of comparisons required to find the target element is halved every iteration.
 
 ## Algorithm
+
 1. Start
 2. Set the left or first index to be 0 and last index as `n-1`; where n=no. of elements.
 3. Set the middle index to be the average of first and last indices.
@@ -16,6 +23,7 @@ Binary Search Algorithm is another approach to the Searching where we follow a [
 ##### Note: This requires the array to be sorted
 
 ## Program in C
+
 ```C
 #include <stdio.h>
 
@@ -56,11 +64,13 @@ int main() {
 ```
 
 ## Asymptotic Notation
+
 Worst Case Time Complexity: `O(logn)`
 Best Case Time Complexity: `O(1)`
 Space Complexity: `O(1)` *it may require additional memory to store collection in a random access data structure like an [[array]]*
 
 ## Use Case
+
 It is useful when the collection is large and sorted.
 
 Related: [[Third Semester/Data Structures and Algorithms/Linear Search|Linear Search]]

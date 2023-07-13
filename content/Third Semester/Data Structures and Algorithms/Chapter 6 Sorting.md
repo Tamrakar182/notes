@@ -1,7 +1,11 @@
 ---
 title: "Chapter 6 Sorting"
+tags:
+- chapters
 ---
 # Sorting
+
+Tags: #chapters 
 
 In this chapter, we will learn about:
 - [[Introduction and Types of sorting, Internal and External sort]]

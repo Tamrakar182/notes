@@ -1,8 +1,13 @@
 ---
 title: "Linear Search"
+tags:
+- algorithms
 ---
 
 # Sequential/Linear Search
+
+Tags: #algorithms 
+
 Linear Search Algorithm is a rather simple algorithm that starts at one end of the list and goes through the entire list until the desired element is found, otherwise the search continues until the end of the data set.
 
 ## Algorithm
